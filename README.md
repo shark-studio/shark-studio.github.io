@@ -1,182 +1,42 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>李小贝&田佳美</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+#Photographer
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <!-- Important Owl stylesheet -->
-        <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-         
-        <!-- Default Theme -->
-        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
+An awesome free one page HTML template for your startup business or personal website.
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
+#Features
 
-
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-                    <a class="navbar-brand" href="#"><strong>温馨</strong>小家</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#carousel-header">主页</a></li>
-                        <li><a href="#about">关于</a></li>
-                       
-                        <li><a href="#blog">小说</a></li>
-                        <li><a href="#social">联系</a></li>
-                    </ul>
-                </div><!--/.navbar-collapse -->
-            </div>
-        </div>
+- A very Unique, Mordern and beautiful Design.
+- Background Slider
+- Optimized Code & Content
+- HiDPI / Retina Ready
+- Clean Code
+- Cross-browser Compatibility
+- CSS3 Animations
+- SEO Optimized
+- 100% Fully Customizable
+- Sticky Header 
+- Google Fonts
+- Built with HTML5 & CSS3
+- Strong focus on Usability and UX
+- Responsive layout
+- CSS Framework - Bootstrap 3
+- FontAwesome Icon Integrated
+- Clean and stylish UI
+- Smooth CSS3 animation
+- Well commented coding
+- Easy to use
+- It's Free!
 
 
+#Screenshot
 
-        <div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="8000">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="camera-icon hidden-sm hidden-xs">
-                    <div class="circle">
-                        <div class="hexagon">
-                            <i class="fa  fa-camera"></i>
-                        </div>
-                    </div>
-                </div>
+![Screenshot of Photographer]
+(https://raw.githubusercontent.com/technext/Photographer/master/PHOTOGRAPHER.jpg)
 
-                <div class="item active">
-                    <img src="img/slide1.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <img src="img/slide2.jpg" alt="">
-                </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-header" role="button" data-slide="next">
-                <img src="img/left.png" alt="Previous">
-            </a>
-            <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
-                <img src="img/right.png" alt="Next">
-            </a>
-        </div>
+#Demo Link
+Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Photographer/)
 
 
 
 
-        <div id="about" class="content-block content-block-cyan">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                       
-                        <p>
-                            我对你的爱，就像自发的化学反应，无需外界的推动，从相遇的那一刻起，就自然而然地开始，永不停息。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-
-        <div id="projects" class="recent-projects">
-            <div class="recent-projects-title">
-                我们的瞬间
-            </div>
-
-            <div class="recent-projects-content content-block-gray">
-                <div id="owl-example" class="owl-carousel">
-                    <div>
-                        <img src="img/recent1.jpg" alt="">
-                        <a href="#">小桥人家</a>
-                    </div>
-                    <div>
-                        <img src="img/recent2.jpg" alt="">
-                        <a href="#">栈台</a>
-                    </div>
-                    <div>
-                        <img src="img/recent3.jpg" alt="">
-                        <a href="#">她与她</a>
-                    </div>
-                    <div>
-                        <img src="img/recent4.jpg" alt="">
-                        <a href="#">榕树底下</a>
-                    </div>
-                    <div>
-                        <img src="img/recent5.jpg" alt="">
-                        <a href="#">Sunrise in west</a>
-                    </div>
-                    <div>
-                        <img src="img/recent6.jpg" alt="">
-                        <a href="#">girl in sunset</a>
-                    </div>
-                    <div>
-                        <img src="img/recent4.jpg" alt="">
-                        <a href="#">Lorem Ipsum</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.recent-projects -->
-
-
-
-        <div id="blog" class="content-block content-block-gray">
-            <div class="container">
-               
-                <section class="block-body">
-                    <div class="row">
-                   
-                            <img src="img/mac_glasses1-1000x600.jpg" alt="Winter Is Comming">
-                            <a href="#"><h2>此刻</h2></a>
-                            <div class="date">2025年5月3日</div>
-                        </div>
-                        <div class="col-sm-4 blog-post">
-                            <img src="img/road-1000x600.jpg" alt="The Illustration">
-                            <a href="#"><h2>瞬间</h2></a>
-                            <div class="date">2025年5月3日</div>
-                        </div>
-                    </div>
-                </section>
-            </div><!--/container-->
-        </div><!-- /.content-block content-blog-gray -->
-
-
-       
-
-
-        <footer class="content-block content-block-dark">
-            <p>&copy; Copyright Photographer 2014. Theme by <a href="https://themewagon.com/" target="_blank"> ThemeWagon</a></p>
-        </footer>     
-
-        <script src="js/jquery-2.1.3.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <!-- Include js plugin -->
-        <script src="owl-carousel/owl.carousel.js"></script>
-
-        <script src="js/main.js"></script>
-
-    </body>
-</html>
