@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <title>生日快乐！</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+</style>
+<script type="text/javascript">
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+
+    var texts = '黎峻汝'.split('');
+
+    var fontSize = 16;
+    var columns = canvas.width / fontSize;
+    
+    var drops = [];
+  
+    for (var x = 0; x < columns; x++) {
+        drops[x] = 1;
+    }
+
+    function draw() {
+      
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+        ctx.fillStyle = '#f584b7';
+        ctx.font = fontSize + 'px arial';
+      
+        for (var i = 0; i < drops.length; i++) {
+            var text = texts[Math.floor(Math.random() * texts.length)];
+            ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+            if (drops[i] * fontSize > canvas.height || Math.random() > 0.95) {
+                drops[i] = 0;
+            }
+
+            drops[i]++;
+        }
+    }
+
+    setInterval(draw, 33);
+</script>
+</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+    <div id="child"><h4>祝黎峻汝同学生日快乐！</h4>
+    </div>
+    <TITLE> 生日快乐！</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <META NAME="Generator" CONTENT="EditPlus">
+    <META NAME="Author" CONTENT="">
+    <META NAME="Keywords" CONTENT="">
+    <META NAME="Description" CONTENT="">
+    <meta charset="UTF-8">
+    <style>
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background: rgb(151, 42, 118);
+        }
+
+        canvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        #child {
+            position: absolute;
+            left: 50%;
+            top: 48%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        h4 {
+            font-family: "STKaiti";
+            font-size: 40px;
+            color: #a2d211;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
